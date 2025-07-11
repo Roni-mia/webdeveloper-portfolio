@@ -1,12 +1,23 @@
-*{
+*,html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+section{
+    margin-top: 0;
+}
+.header{
+    background-image: url("../image/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px;
+    margin: 0px 100px;
+    padding-top: 40px;
     
 }
 
@@ -29,11 +40,48 @@
     font-family: "Raleway", sans-serif;
     font-size: 40px;
     margin-top:200px;
+    height: 350px;
+    padding: 20px 0px 10px 0px;
     
 }
 .banner_button{
     width:150px;
+    height: 50px;
+    background-color:#4E47FF;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    font-size: 16px; 
+    border-radius: 20px;
 }
-.margin_text{
-    
+.action_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    padding-top: 40px;
+}
+.action_section_left{
+    padding-top: 30px;
+}
+.title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    padding: 20px 0px 10px 0px;
+}
+.subtitle{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    padding: 20px 0px 10px 0px;
+}
+img{
+    width: 403px;
+    height: 328px;
+    border-radius: 20px;
+}
+.productive_section_title{
+    text-align: center;
+}
+.productive_users_section{
+    display: flex;
+    justify-content: center;
 }
