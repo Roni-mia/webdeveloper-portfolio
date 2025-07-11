@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    
+}
+
+.nav_name{
+    color:#4E47FF;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+}
+.nav_button{
+    background-color:#4E47FF;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    width: 150px;       
+    font-size: 16px; 
+    border-radius: 20px;
+}
+.banner{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    margin-top:200px;
+    
+}
+.banner_button{
+    width:150px;
+}
+.margin_text{
+    
+}
