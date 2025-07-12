@@ -1,7 +1,8 @@
-*,html{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     
 }
 section{
@@ -143,6 +144,7 @@ img{
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   max-width: 300px;
   text-align: left;
+  margin-bottom: 90px;
 }
 
 .star img{
@@ -179,3 +181,71 @@ img{
   font-size: 13px;
   color: #181717;
 }
+.touch_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+    background-color: #dae0e7;
+}
+.touch_section_left{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.touch_section_right{
+    padding: 20px;
+    font-size: 20px;
+}
+.touch_section_right form input{
+  width: 370px;
+  padding: 10px;
+  height:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.submit{
+  width: 370px;
+  margin-top:10px;
+  padding: 10px;
+  height: auto;
+  background-color: #4d4dff;
+  border-radius: 5px;
+  border-style: none;
+}
+.footer{
+  text-align: center;
+
+}
+.footer_title{
+  color:#4E47FF;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight:bold;
+  text-align: center;
+  padding-top: 70px;
+}
+.footer_subtitle{
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.footer_content{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  font-size: 20px;
+  list-style: none;
+  
+}
+.footer_content a{
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  margin-top: 20px;
+  
+  
+}
+
