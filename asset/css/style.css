@@ -78,10 +78,104 @@ img{
     height: 328px;
     border-radius: 20px;
 }
+.productive_section{
+    width: 1140px;
+    height: 306px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-color: #eaeaff;
+    padding: 40px 60px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
 .productive_section_title{
     text-align: center;
+    font-size: 44px;
+    padding: 40px;
 }
 .productive_users_section{
     display: flex;
     justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.stat h3 {
+  font-size: 32px;
+  color: #4d4dff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.user_feedback_section {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.user_feedback_section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.feedback-card{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  max-width: 300px;
+  text-align: left;
+}
+
+.star img{
+    width: 15px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.feedback_image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback_image img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.feedback_image_info {
+  font-size: 13px;
+  color: #181717;
 }
